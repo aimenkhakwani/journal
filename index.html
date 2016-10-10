@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Journal</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Journal</h1>
+      <form id="journal">
+        <label for="title">Enter a Title:</label>
+        <input class="form-control" id="title" type="text">
+        <label for="entry">Entry</label>
+        <textarea class="form-control" id="entry"></textarea>
+        <br>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+      <div id="output">
+        <h3>Word Count: <span id="word-count"></span></h3>
+        <h3>Vowel Count: <span id="vowel-count"></span></h3>
+        <h3>Consonant Count: <span id="consonant-count"></span></h3>
+        <h3>First Sentence: <span id="first-sentence"></span></h3>
+      </div>
+  </div>
+  </body>
+</html>

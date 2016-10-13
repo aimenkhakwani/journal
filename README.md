@@ -6,7 +6,7 @@
 
 ## Description
 
-This app allows users to enter a journal entry, then displays the number of words in the entry, how many vowels and consonants it has. It also displays the first sentence if it is under eight words. If not, the app will output the first eight words only.
+This app allows users to enter a journal entry, then displays the number of words in the entry, and how many vowels and consonants it has. It also displays the first sentence if the sentence is under eight words. If not, the app will output the first eight words only.
 
 ## Setup/Installation Requirements
 
